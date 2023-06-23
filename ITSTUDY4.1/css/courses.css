@@ -1,0 +1,182 @@
+body {
+  background: linear-gradient(180deg, #111927, #0b121f 50%);
+  /* background-image: url("https://rare-gallery.com/uploads/posts/555392-space-dark-blue.jpg");*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+
+}
+
+header {
+  font-weight: 600;
+  background-color: #0b121f;
+}
+
+main {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.register {
+  background: linear-gradient(to right, #22EF00, #aaff00);
+  border-radius: 7px;
+  width: 130px;
+  height: 50px;
+  padding-left: 30px;
+  padding-top: 13px;
+}
+
+.register-text {
+  color: black;
+  text-decoration: none;
+}
+
+.login-text {
+  margin-right: 10px;
+}
+
+.logo {
+  margin-left: 0%;
+}
+
+/* footer */
+
+footer {
+  color: #fff;
+  margin-top: 100px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer nav ul li {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+footer nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+
+  /* Styles for small screens */
+  footer {
+    padding: 10px;
+  }
+
+  footer nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  filter: brightness(0.4);
+}
+
+.front {
+  /* background: linear-gradient(to right, #1b282e, #222a36dc); */
+  /* background-color: rgb(26, 49, 50); */
+  background-color: rgb(26, 41, 50);
+  border-radius: 3%;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s ease-out 0s;
+  transform: rotateY(0deg);
+}
+
+
+
+.back {
+  background-color: rgb(7, 13, 20);
+  border-radius: 3%;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  transform: rotateY(0deg);
+
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.back::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("https://e0.pxfuel.com/wallpapers/185/640/desktop-wallpaper-security-and-cyber-security-the-smart-home-in-2030-andrew-lucas-london-cyber-attack.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.back-text {
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+}
+
+
+
+h3 {
+  padding-top: 25px;
+}
+
+.courseDescription {
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.learn {
+  color: black;
+  background: linear-gradient(to right, #ddf2e6, #d8e4e0);
+  font-weight: 600;
+  margin-top: -20px;
+  border: white;
+}
+
+.col-lg-3 {
+  height: 350px;
+  width: 100px;
+  margin: 30px;
+  display: inline-block;
+}
+
+.row {
+  margin: 40px;
+}

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ITSTUDY courses</title>
+    <link rel="shortcut icon" href="../images/loggo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="../css/courses.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="../images/geometric.mp4" type="video/mp4">
+    </video>
+    <header>
+        <div class="menu-main container">
+            <nav class="navbar navbar-dark navbar-expand-lg">
+                <a href="mainpage.html" class="logo"><img src="../images/itstudyimage.png" height="70"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"
+                    aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="menu">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#certifications">CERTIFICATIONS</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="about.html">ABOUT US</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="courses.html">COURSES</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item">
+                            <a class="login-text nav-link" href="login.html">Log In</a>
+                        </li>
+                        <div class="register">
+                            <li class="nav-item">
+                                <a class="register-text" href="regpage.html">Register</a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="row1">
+                    <div class="col-12 text-left my-5">
+                        <h1>All online courses</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="card" class="col-lg-3 col-md-4 col-sm-6 text-center img-right my-1">
+                        <div class="front p-3 mb-2 text-white">
+                            <img class="w-75" src="../images/coursesimg/python.png"><br>
+                            <h4>Python</h4>
+                            <p>1000$<br>15 months</p>
+                            <button type="button" class="learn btn btn-success text-center col-md-6">Learn</button>
+                        </div>
+                        <div class="back">
+                            <h3>Python</h3>
+                            <p class="courseDescription">Python is an interpreted programming language that is easy to study and use, 
+                                so it is suitable for beginner developers. Python is used in many areas, 
+                                mostly, in web development.</p>
+                        </div>
+                    </div>
+                    <div id="card1" class="col-lg-3 col-md-4 col-sm-6 text-center img-right my-1">
+                        <div class="front p-3 mb-2 text-white">
+                            <img class="w-75" src="../images/coursesimg/java.png"><br>
+                            <h4>Java</h4>
+                            <p>1500$<br>12 months</p>
+                            <button type="button" class="learn btn btn-success text-center col-md-6">Learn</button>
+                        </div>
+                        <div class="back">
+                            <h3>Java</h3>
+                            <p class="courseDescription">You will learn how to write code on one of the most popular programming languages in the world. The developers on Java are steadily in demand in different areas of programming.</p>
+                        </div>
+                    </div>
+                    <div id="card2" class="col-lg-3 col-md-4 col-sm-6 text-center img-right my-1">
+                        <div class="front p-3 mb-2 text-white">
+                            <img class="w-75" src="../images/coursesimg/golang.png"><br>
+                            <h4>Golang</h4>
+                            <p>1000$<br>11 months</p>
+                            <button type="button" class="learn btn btn-success text-center col-md-6">Learn</button>
+                        </div>
+                        <div class="back">
+                            <h3>Golang</h3>
+                            <p class="courseDescription">In simple words, we will analyze how to work in the GO programming language. Its features and subtleties.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="card3" class="col-lg-3 col-md-4 col-sm-6 text-center img-right my-1">
+                        <div class="front p-3 mb-2 text-white">
+                            <img class="w-75" src="../images/coursesimg/js.png"><br>
+                            <h4>JavaScript</h4>
+                            <p>800$<br>10 months</p>
+                            <button type="button" class="learn btn btn-success text-center col-md-6">Learn</button>
+                        </div>
+                        <div class="back">
+                            <h3>JavaScript</h3>
+                            <p class="courseDescription">Using JavaScript, you can create interactive elements on the site. For example, pop -up tips, galleries, dropping menu and shapes. This is the main language for modern web development-almost 100% of the sites works on JavaScript.</p>
+                        </div>
+                    </div>
+                    <div id="card4" class="col-lg-3 col-md-4 col-sm-6 text-center img-right my-1">
+                        <div class="front p-3 mb-2 text-white">
+                            <img class="w-75" src="../images/coursesimg/android.png"><br>
+                            <h4>Android</h4>
+                            <p>1800$<br>17 months</p>
+                            <button type="button" class="learn btn btn-success text-center col-md-6">Learn</button>
+                        </div>
+                        <div class="back">
+                            <h3>Android</h3>
+                            <p class="courseDescription">On the basis of the Google Android operating system, 88% of mobile devices on the planet operate. Knowledge in the field of Android development will be in demand for a long time. </p>
+                        </div>
+                    </div>
+                    <div id="card5" class="col-lg-3 col-md-4 col-sm-6 text-center img-right my-1">
+                        <div class="front p-3 mb-2 text-white">
+                            <img class="w-75" src="../images/coursesimg/apple.png"><br>
+                            <h4>IOS</h4>
+                            <p>2000$<br>13 months</p>
+                            <button type="button" class="learn btn btn-success text-center col-md-6">Learn</button>
+                        </div>
+                        <div class="back">
+                            <h3>IOS</h3>
+                            <p class="courseDescription">You will learn how to write applications using the SWIFT language for devices working on iOS. iOS developers make a variety of products that facilitate the life of users.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="card6" class="col-lg-3 col-md-4 col-sm-6 text-center img-right my-1">
+                        <div class="front p-3 mb-2 text-white">
+                            <img class="w-75" src="../images/coursesimg/sql.png"><br>
+                            <h4>SQL</h4>
+                            <p>750$<br>6 months</p>
+                            <button type="button" class="learn btn btn-success text-center col-md-6">Learn</button>
+                        </div>
+                        <div class="back">
+                            <h3>SQL</h3>
+                            <p class="courseDescription">Learn to use the SQL and PL/SQL dialect, select, reduce and visualize data.</p>
+                        </div>
+                    </div>
+                    <div id="card7" class="col-lg-3 col-md-4 col-sm-6 text-center img-right my-1">
+                        <div class="front p-3 mb-2 text-white">
+                            <img class="w-75" src="../images/coursesimg/web.png"><br>
+                            <h4>WEB</h4>
+                            <p>1450$<br>13 months</p>
+                            <button type="button" class="learn btn btn-success text-center col-md-6">Learn</button>
+                        </div>
+                        <div class="back">
+                            <h3>WEB</h3>
+                            <p class="courseDescription">The business is actively moving online, so everyone needs web services. Companies are looking for FrontenD developers to introduce features faster than competitors.</p>
+                        </div>
+                    </div>
+                    <div id="card8" class="col-lg-3 col-md-4 col-sm-6 text-center img-right my-1">
+                        <div class="front p-3 mb-2 text-white">
+                            <img class="w-75" src="../images/coursesimg/embedded.png"><br>
+                            <h4>Embedded systems</h4>
+                            <p>800$<br>19 months</p>
+                            <button type="button" class="learn btn btn-success text-center col-md-6">Learn</button>
+                        </div>
+                        <div class="back">
+                            <h3>Embedded systems</h3>
+                            <p class="courseDescription">Learn how electronic gadgets are designed, developed, and built as embedded systems that shape the world.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="card9" class="col-lg-3 col-md-4 col-sm-6 text-center img-right my-1">
+                        <div class="front p-3 mb-2 text-white">
+                            <img class="w-75" src="../images/coursesimg/sf_arch.png"><br>
+                            <h4>SW Architecture</h4>
+                            <p>2000$<br>13 months</p>
+                            <button type="button" class="learn btn btn-success text-center col-md-6">Learn</button>
+                        </div>
+                        <div class="back">
+                            <h3>SW Architecture</h3>
+                            <p class="courseDescription">You will understand the tools and practices of developing architecture software. You will learn how to choose a style for a task and etc.</p>
+                        </div>
+                    </div>
+                    <div id="card10" class="col-lg-3 col-md-4 col-sm-6 text-center img-right my-1">
+                        <div class="front mb-2 text-white">
+                            <img class="w-75" src="../images/coursesimg/management.png"><br>
+                            <h4>Managment</h4>
+                            <p>1350$<br>8 months</p>
+                            <button type="button" class="learn btn btn-success text-center col-md-6">Learn</button>
+                        </div>
+                        <div class="back">
+                            <h3>Managment</h3>
+                            <p class="courseDescription">This is not a dry theory, but the combat mode of operation of the project manager, you will immediately go through all the stages from the initiation to the completion of the project. </p>
+                        </div>
+                    </div>
+                    <div id="card11" class="col-lg-3 col-md-4 col-sm-6 text-center img-right my-1">
+                        <div class="front p-3 mb-2 text-white">
+                            <img class="w-75" src="../images/coursesimg/linux.png"><br>
+                            <h4>Linux</h4>
+                            <p>1000$<br>11 months</p>
+                            <button type="button" class="learn btn btn-success text-center col-md-6">Learn</button>
+                        </div>
+                        <div class="back">
+                            <h3>Linux</h3>
+                            <p class="courseDescription">The introductory course «Linux» will help to learn how to work with OC Linux and get a certificate from LPI (Linux Professional Institute) for a successful career in IT.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="academy-footer w-100 pt-88">
+        <div class="academy-footer-submenu ">
+            <div class="container px-0 mb-16">
+                <nav class="navbar navbar-dark justify-content-center py-32 px-0">
+                    <ul
+                        class="navbar-nav d-flex flex-row justify-content-center align-items-center flex-wrap font-size-16">
+                        <li class="nav-item col-lg-auto mb-lg-0 mb-24">
+                            <span class="mr-24">2023 © ITStudy</span>
+                        </li>
+                        <li class="nav-item col-lg-auto col-xs-6">
+                            <a href="" class="nav-link mr-16">Terms of Service</a>
+                        </li>
+                        <li class="nav-item col-lg-auto col-xs-6">
+                            <a href="" class="nav-link mr-16">Privacy Policy</a>
+                        </li>
+                        <li class="nav-item col-lg-auto col-xs-6">
+                            <a href="" class="nav-link mr-16">Contact us</a>
+                        </li>
+                        <li class="nav-item col-lg-auto col-xs-6">
+                            <a href="" class="nav-link mr-16">FAQ</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/mainpage.js"></script>
+
+    <script src="../js/jqueryToFlip/jquery.flip.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

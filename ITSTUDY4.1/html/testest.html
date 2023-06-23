@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Typewriter Animation Example</title>
+  <style>
+    .typewriter {
+      overflow: hidden;
+      border-right: .15em solid orange;
+      white-space: nowrap;
+      letter-spacing: .15em;
+      animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    }
+
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+
+    @keyframes blink-caret {
+      from,
+      to {
+        border-color: transparent;
+      }
+      50% {
+        border-color: orange;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="typewriter">Welcome to My Website</h1>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      function typeWriter() {
+        var text = $('.typewriter').text();
+        var currentText = '';
+        var currentIndex = 0;
+        var interval = setInterval(function() {
+          currentText += text[currentIndex];
+          $('.typewriter').text(currentText);
+          currentIndex++;
+          if (currentIndex >= text.length) {
+            clearInterval(interval);
+          }
+        }, 100);
+      }
+
+      $(window).on('load', function() {
+        typeWriter();
+      });
+    });
+  </script>
+</body>
+</html>

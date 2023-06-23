@@ -1,0 +1,245 @@
+body {
+    background: linear-gradient(180deg,#111927,#0b121f 50%);
+   /* background-image: url("https://rare-gallery.com/uploads/posts/555392-space-dark-blue.jpg");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+header {
+  font-weight: 600;
+  background-color: #0b121f;
+}
+
+
+main {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.register {
+    background: linear-gradient(to right, #22EF00, #aaff00);
+    border-radius: 7px;
+    width: 130px;
+    height: 50px;
+    padding-left: 30px;
+    padding-top: 13px;
+}
+
+.register-text {
+    color: black;
+    text-decoration: none;
+}
+
+.login-text {
+    margin-right: 10px;
+}
+
+.h11 {
+    padding-top: 90px;
+    font-weight: 700;
+    font-size: 72px;
+    visibility: hidden;
+}
+#exceptionh11 {
+    padding-top: 0px;
+}
+
+
+.p11 {
+    font-size: 23px;
+    opacity: 0.7;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.logo {
+    margin-left: 0%;
+}
+
+.startbtn {
+    background: linear-gradient(to right, #26ff00, #aaff00);
+    border-radius: 7px;
+    padding: 10px;
+    width: 150px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.coursebtn {
+    border: 2px solid #fff;
+    border-radius: 7px;
+    padding: 10px;
+    width: 150px;
+    height: 60px;
+}
+
+.linkToText {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    animation: glow1 1s ease-in-out infinite alternate;
+}
+
+.linkToText2 {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    animation: glow2 4s ease-in-out infinite alternate;
+}
+
+.row {
+    display: flex;
+} 
+
+.learn {
+    color: black;
+    background: linear-gradient(to right, #93dcb4, #beffe7);
+    font-weight: 600;
+}
+
+
+/* footer */
+
+footer {
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer nav ul li {
+    display: inline-block;
+    margin: 0 30px;
+  }
+  
+  footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 767px) {
+    /* Styles for small screens */
+    footer {
+      padding: 10px;
+    }
+  
+    footer nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
+  
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: brightness(0.4);
+  }
+
+/* why container */
+.why-container {
+    margin-top: 100px;
+}
+.whytext {
+    font-size: 40px;
+    font-family: sans-serif;
+    font: neue-haas-unica;
+    font-weight: 900;
+}
+.since2022 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #a4b1cd;
+    margin-top: 8px;
+}
+
+/* cards */
+.cards-container {
+    margin-top: 1px;
+}
+.battlegrounds-card {
+    border: 1px solid #202837;
+    border-radius: 6px;
+    background-color: rgb(26, 35, 50);
+    transition: transform .2s;
+}
+.battlegrounds-card:hover {
+    -ms-transform: scale(1.08); /* IE 9 */
+    -webkit-transform: scale(1.08); /* Safari 3-8 */
+    transform: scale(1.08); 
+  }
+.cardTitle {
+    font-size: 24px;
+}
+.cardDescription {
+    color: #a4b1cd;
+    font-weight: 600;
+}
+
+/* learners */
+.rowlearners {
+    margin-top: 50px;
+    background-image: url(https://www.hackthebox.com/images/landingv3/home/oulines-bg.svg);
+    border: 1px solid #202837;
+}
+#typing-effect {
+    padding: 32px;
+}
+.learners {
+    font-size: 48px;
+    margin: 0px 0px 8px;
+    font-family:monospace;
+    font-weight: 600;
+    color: rgb(90, 239, 0);
+}
+.bePart {
+    font-size: 20px;
+    font-weight: 600;
+}
+.toUnderline {
+    color: rgb(135, 239, 0);
+}
+
+
+/* glowing text */
+  
+  @-webkit-keyframes glow1 {
+    from {
+      text-shadow: 0 0 10px #7cc573, 0 0 20px #9ebe9d, 0 0 30px #dbece1, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ccdfcd, 0 0 70px #bce9c1;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #ffffff, 0 0 30px #8ab786, 0 0 40px #03c20c, 0 0 50px #07a114, 0 0 60px #038f1b, 0 0 70px #01c618, 0 0 80px #16df04;
+    }
+  }
+
+  @-webkit-keyframes glow2 {
+    from {
+      text-shadow: 0 0 10px #dbf3d863, 0 0 20px #ffebeb48, 0 0 30px #bde1ff56, 0 0 40px #c2dde460, 0 0 50px #a3c6cc63, 0 0 60px #d1f2f35e, 0 0 70px #bee2d96e;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #91adda50, 0 0 30px #8ad5ec5d, 0 0 40px #88b6db21, 0 0 50px #8dabda4f, 0 0 60px #77e0e723, 0 0 70px #4dffca60, 0 0 80px #2381ac65;
+    }
+  }
+  
+  
